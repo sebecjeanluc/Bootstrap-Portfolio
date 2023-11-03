@@ -31,6 +31,7 @@ This portfolio includes various CSS techniques such as media queries, flex-box, 
 
 - ![HTML]
 - ![CSS]
+- ![BOOTSTRAP]
 
 ## Roadmap
 
@@ -99,3 +100,4 @@ Tak Kawamura - [@\_takuyakawamura](https://twitter.com/_takuyakawamura) - tkawam
 
 [HTML]: https://img.shields.io/badge/HTML-orange
 [CSS]: https://img.shields.io/badge/CSS-blue
+[BOOTSTRAP]: https://img.shields.io/badge/Bootstrap-purple
