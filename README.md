@@ -35,11 +35,11 @@ This portfolio includes various CSS techniques such as media queries, flex-box, 
 
 ## Roadmap
 
-- [] Have a navigation bar
+- [x] Have a navigation bar
 - [] Have navigation menu at the top and use the Bootstrap's documentation. Or create your own navbar by applying the correct Bootstrap classes to your HTML.
   - [] Include links that are applicable to your portfolio
   - [] Links should navigate to the appropriate sections
-- [] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
+- [x] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
 - [] Follow a work section that has to include the followings
   - [] A section displaying your work in grid.
   - [] If you need to use placeholder image use placehold.coLinks to an external site.
