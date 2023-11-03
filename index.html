@@ -25,6 +25,7 @@
 		/>
 
 		<!-- Custom styles CSS for this site -->
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="./css/style.css" rel="stylesheet" type="text/css" />
 		<title>Takuya Kawamura's Bootstrap-powered portfolio</title>
 	</head>
@@ -48,10 +49,13 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ms-auto">
 							<li class="nav-item">
+								<a class="nav-link" href="#work">WORK</a>
+							</li>
+							<li class="nav-item">
 								<a class="nav-link" href="#aboutme">ABOUT ME</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#work">WORK</a>
+								<a class="nav-link" href="#aboutme">SKILLS</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#contactme">CONTACT ME</a>
@@ -70,11 +74,7 @@
 					<div class="row h-100">
 						<div class="col-lg-5 my-auto">
 							<div class="device-container">
-								<img
-									src="./images/work/signature.png"
-									class="img-fluid"
-									alt=""
-								/>
+								<img src="./images/work/signature.pn class="img-fluid" alt="" />
 							</div>
 						</div>
 						<div class="col-lg-7 my-auto p-3">
@@ -92,6 +92,150 @@
 					</div>
 				</div>
 			</header>
+			<!-- Work section -->
+			<section class="container mx-auto p-3" id="work">
+				<h2 class="display-4 text-center mx-auto m-3">WORK</h2>
+				<div class="container">
+					<div class="row">
+						<article class="col-md-4 col-lg-6 my-3">
+							<a
+								class="work-link"
+								href="https://sebecjeanluc.github.io/TakuyaKawamura_portfolio/"
+								target="_blank"
+							>
+								<div class="card">
+									<div class="card-pic-wrapper">
+										<img
+											src="./images/work/portfolio.png"
+											class="card-img-top overflow-y-auto"
+											alt="Github portfolio"
+										/>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">Portfolio</h5>
+										<p class="card-text">
+											This is a portfolio website for Takuya Kawamura. Developed
+											using HTML and CSS and deployed in Github Page.
+										</p>
+										<p class="card-text">
+											<small class="text-body-secondary mt">Octover 2023</small>
+										</p>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="col-md-4 col-lg-6 my-3">
+							<a class="maintenance" href="#">
+								<div class="card">
+									<div class="card-pic-wrapper">
+										<img
+											src="./images/work/onescene.png"
+											class="card-img-top"
+											alt="onescene preview"
+										/>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">Web service</h5>
+										<p class="card-text">
+											This website is under construction. It shows the part of
+											design and mock-up coding for a cosmetic site.
+										</p>
+										<p class="card-text">
+											<small class="text-body-secondary mt"
+												>work in progress</small
+											>
+										</p>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div>
+					<div class="row">
+						<article class="col-md-4 col-lg-4 my-3">
+							<a class="work-link" href="https://suiki.co.uk" target="_blank">
+								<div class="card">
+									<div class="card-pic-wrapper">
+										<img
+											src="./images/work/suiki_hp.png"
+											class="card-img-top"
+											alt="suiki preview"
+										/>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">Company website</h5>
+										<p class="card-text">
+											This is an official company website for Suiki Limited,
+											Inc. located in UK, built in HTML, and CSS deloyed in AWS.
+										</p>
+										<p class="card-text">
+											<small class="text-body-secondary mt"
+												>Novemver 2021</small
+											>
+										</p>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="col-md-4 col-lg-4 my-3">
+							<a
+								class="work-link"
+								href="https://miseenscene.co.jp"
+								target="_blank"
+							>
+								<div class="card">
+									<div class="card-pic-wrapper">
+										<img
+											src="./images/work/miseenscene.png"
+											class="card-img-top"
+											alt="miseenscene preview"
+										/>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">Company website</h5>
+										<p class="card-text">
+											This is an official company website for Mise en scene,
+											Inc. located in Tokyo, built in HTML, and CSS deloyed in
+											AWS.
+										</p>
+										<p class="card-text">
+											<small class="text-body-secondary mt">March 2020</small>
+										</p>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="col-md-4 col-lg-4 my-3">
+							<a
+								class="work-link"
+								href="https://www.pipschild.com"
+								target="_blank"
+							>
+								<div class="card">
+									<div class="card-pic-wrapper">
+										<img
+											src="./images/work/pips.png"
+											class="card-img-top"
+											alt="pips preview"
+										/>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">Card title</h5>
+										<p class="card-text">
+											This is an official company website for Pips international
+											pre-school. located in Tokyo, built in Wordpress.
+										</p>
+										<p class="card-text">
+											<small class="text-body-secondary mt"
+												>First built, December 2019</small
+											>
+										</p>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
 		</div>
 		<!-- Optional JavaScript -->
 		<!-- Popper.js, then Bootstrap JS -->

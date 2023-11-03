@@ -41,11 +41,11 @@ This portfolio includes various CSS techniques such as media queries, flex-box, 
   - [] Links should navigate to the appropriate sections
 - [x] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
 - [] Follow a work section that has to include the followings
-  - [] A section displaying your work in grid.
+  - [x] A section displaying your work in grid.
   - [] If you need to use placeholder image use placehold.coLinks to an external site.
-  - [] Use Bootstrap cards for each project.
-  - [] The description should give a brief overview of the work.
-  - [] Each project will eventually link to your class project work!
+  - [x] Use Bootstrap cards for each project.
+  - [x] The description should give a brief overview of the work.
+  - [x] Each project will eventually link to your class project work!
 - [] Create a skills section that list out the skills you expect to learn from the bootcamp
 - [] Get an about/contact section that has An ABout Me section in the same row.
 - [] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.

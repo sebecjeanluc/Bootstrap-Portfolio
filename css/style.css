@@ -2,6 +2,14 @@
 	--textBlack: #2a2a2a;
 	--black: #000000;
 	--white: #ffffff;
+	--bgColor: #ede5e3;
+}
+
+.body {
+	background-color: var(--bgColor);
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 .content-wrapper {
@@ -11,7 +19,8 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 /* Custom nav style */
@@ -74,4 +83,35 @@ header.hero-wrapper .device-container {
 
 header.hero-wrapper .device-container .screen img {
 	border-radius: 3px;
+}
+
+/* Work section */
+.card-pic-wrapper {
+	max-height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card {
+	border: 1px solid var(--textBlack);
+	min-height: 450px;
+}
+
+.card-title {
+	font-weight: bold;
+}
+
+article .work-link img {
+	transition: transform 0.1s;
+}
+article .work-link:hover .card {
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 0.15);
+}
+article .work-link:hover img {
+	transform: scale(1.1);
+}
+
+article .maintenance {
+	cursor: not-allowed;
 }
