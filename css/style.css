@@ -14,7 +14,7 @@
 	height: 100vh;
 }
 
-/* Custom header style */
+/* Custom nav style */
 .navbar-brand {
 	font-size: 42px;
 	font-weight: bold;
@@ -23,38 +23,51 @@
 	padding-left: 20px;
 }
 
-/* Reset header title name spacing*/
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-	margin-left: 0;
-	padding-left: 0;
-}
-
-.masthead {
-	background-image: url(../images/key_visual02-pexels-henry-&-co-1464474.jpeg);
-	background-size: contain;
-	background-position: center;
-	background-repeat: repeat;
-	height: 200px;
-	box-sizing: border-box;
-	position: relative;
-}
-
-.masthead h2 {
-	position: absolute;
-	font-size: 28px;
-	font-weight: bold;
-	background: rgba(255, 255, 255, 0.8);
-	right: 2%;
-	bottom: 20%;
-}
-
 /* applied when it's in collapse */
 #navbarNav {
 	text-align: right;
+}
+
+/* HERO section */
+
+header.masthead {
+	position: relative;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	color: white;
+	background: url('../images/key_visual02-pexels-henry-&-co-1464474.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+header.masthead .header-content {
+	max-width: 500px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+header.masthead .header-content h1 {
+	font-size: 30px;
+}
+header.masthead .header-content h1 span {
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+header.masthead .header-content h2 span {
+	color: var(--textBlack);
+	font-weight: bold;
+	background-color: var(--white);
+}
+
+header.masthead .device-container {
+	max-width: 325px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+	border-radius: 3px;
 }
