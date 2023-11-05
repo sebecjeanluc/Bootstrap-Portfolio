@@ -12,6 +12,19 @@
 	padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+h5 {
+	font-size: 24px;
+}
+
 .content-wrapper {
 	font-size: 16px;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
@@ -27,7 +40,6 @@
 .navbar-brand {
 	font-size: 42px;
 	font-weight: bold;
-	font-family: 'Bebas Neue', sans-serif;
 	background-color: var(--white) !important;
 	padding: 10px 20px;
 }
@@ -114,4 +126,13 @@ article .work-link:hover img {
 
 article .maintenance {
 	cursor: not-allowed;
+}
+
+/* Skills section */
+.custom-card-height {
+	min-height: 200px;
+}
+
+.custom-overlay {
+	background: rgba(0, 0, 0, 0.5);
 }

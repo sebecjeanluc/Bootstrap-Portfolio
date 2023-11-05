@@ -44,8 +44,8 @@ This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specif
   - [x] Use Bootstrap cards for each project.
   - [x] The description should give a brief overview of the work.
   - [x] Each project will eventually link to your class project work!
-- [] Create a skills section that list out the skills you expect to learn from the bootcamp
-- [] Get an about/contact section that has An ABout Me section in the same row.
+- [x] Create a skills section that list out the skills you expect to learn from the bootcamp
+- [] Get an about/contact section that has An About Me section in the same row.
 - [] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.
 - [] Use the media queries for your bootstrap solution
 - [] deploy your new Bootstrap-powered portfolio to GitHub Pages.
