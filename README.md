@@ -23,9 +23,7 @@
 
 ## About this project
 
-This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap.
-
-This portfolio includes various CSS techniques such as media queries, flex-box, grid, and variable. The criteria is listed below in the roadmap. This website will be responsive for mobile, tablet and desktop.
+This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap. This bootstrap techniques includes layout grid, utilities, card, flexbox, button and some other small parts of components. This website will be fully responsive using bootstrap for mobile, tablet and desktop.
 
 ### Built With
 
