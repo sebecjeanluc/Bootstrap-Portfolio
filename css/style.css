@@ -2,7 +2,7 @@
 	--textBlack: #2a2a2a;
 	--black: #000000;
 	--white: #ffffff;
-	--bgColor: #ede5e3;
+	--bgColor: #e6e2dd;
 }
 
 .body {
@@ -12,6 +12,7 @@
 	padding: 0;
 }
 
+/* custom-typography */
 h1,
 h2,
 h3,
@@ -21,14 +22,22 @@ h6 {
 	font-family: 'Bebas Neue', sans-serif;
 }
 
+h2 {
+	font-size: 38px;
+}
+
 h5 {
 	font-size: 24px;
+}
+/* custom BG color */
+.bg-themed-color {
+	background-color: var(--bgColor);
 }
 
 .content-wrapper {
 	font-size: 16px;
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	background-image: url(../images/bg-pexels_jeffrey_czum_2120084.jpeg);
+	background-image: url(../images/BG_sky.png);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -135,4 +144,14 @@ article .maintenance {
 
 .custom-overlay {
 	background: rgba(0, 0, 0, 0.5);
+}
+
+/* footer - social media section */
+#socialmedia a:hover {
+	opacity: 0.8;
+	background: #e0e0e0;
+	box-shadow: 5px 5px 12px #d9d9d9, -5px -5px 12px #e7e7e7;
+}
+#socialmedia a:hover svg {
+	opacity: 0.8;
 }
