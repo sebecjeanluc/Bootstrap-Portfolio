@@ -5,9 +5,11 @@
 		<meta name="viewport" content="width=device-width,  initial-scale=1" />
 
 		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin="anonymous"
+		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&display=swap"
 			rel="stylesheet"
@@ -31,7 +33,7 @@
 	</head>
 	<body>
 		<div class="content-wrapper">
-			<!-- Boostratp Nav -->
+			<!-- Boostratp Navigation -->
 			<nav class="navbar navbar-expand-lg bg-secondary-subtle">
 				<div class="container-fluid">
 					<h1 class="navbar-brand">Takuya Kawamura</h1>
@@ -129,7 +131,7 @@
 								<div class="card">
 									<div class="card-pic-wrapper">
 										<img
-											src="./images/work/onescene.png"
+											src="./images/work/onescene_resized.png"
 											class="card-img-top"
 											alt="onescene preview"
 										/>
@@ -156,7 +158,7 @@
 								<div class="card">
 									<div class="card-pic-wrapper">
 										<img
-											src="./images/work/suiki_hp.png"
+											src="./images/work/suiki_hp_resized.png"
 											class="card-img-top"
 											alt="suiki preview"
 										/>
@@ -213,7 +215,7 @@
 								<div class="card">
 									<div class="card-pic-wrapper">
 										<img
-											src="./images/work/pips.png"
+											src="./images/work/pips_resized.png"
 											class="card-img-top"
 											alt="pips preview"
 										/>
@@ -236,6 +238,7 @@
 					</div>
 				</div>
 			</section>
+			<!-- Skills section -->
 			<section class="container mx-auto p-3" id="skills">
 				<h2 class="display-4 text-center mx-auto m-3">Skills</h2>
 				<div>
@@ -246,9 +249,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/flexbox.jpeg"
+									src="./images/skills/html_resized.png"
 									class="card-img"
-									alt="..."
+									alt="html conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">HTML</h5>
@@ -267,9 +270,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/grid.jpeg"
+									src="./images/skills/css_resized.png"
 									class="card-img"
-									alt="..."
+									alt="CSS conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">CSS</h5>
@@ -288,9 +291,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/utilities.jpeg"
+									src="./images/skills/javascirpt_resized.png"
 									class="card-img"
-									alt="..."
+									alt="javascript conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">Javascript</h5>
@@ -309,9 +312,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/react2.jpeg"
+									src="./images/skills/react_resized.png"
 									class="card-img"
-									alt="..."
+									alt="conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">React</h5>
@@ -330,9 +333,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/react.png"
+									src="./images/skills/webapi_resized.png"
 									class="card-img"
-									alt="..."
+									alt="WebAPI conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">Web API</h5>
@@ -351,9 +354,9 @@
 								style="max-width: 350px"
 							>
 								<img
-									src="./images/skills/node.png"
+									src="./images/skills/node_resized.png"
 									class="card-img"
-									alt="..."
+									alt="node conceptual image"
 								/>
 								<div class="card-img-overlay custom-overlay">
 									<h5 class="card-title">Node.js</h5>
@@ -370,7 +373,8 @@
 					</div>
 				</div>
 			</section>
-			<section class="container mx-auto p-3 bg-themed-color" id="aboutme">
+			<!-- About me section -->
+			<section class="container mx-auto p-3 my-5 bg-themed-color" id="aboutme">
 				<h2 class="display-4 text-center mx-auto m-3">About Me</h2>
 				<div class="container h-100">
 					<div class="row h-100">
@@ -436,9 +440,13 @@
 				</div>
 			</section>
 		</div>
-		<footer class="text-bg-light p-3" id="socialmedia">
-			<div class="card text-center" style="min-height: 0; border: none">
-				<div class="text-bg-light mb-3 p-3">
+		<!-- Social media section is inside of footer -->
+		<footer class="p-3" id="socialmedia">
+			<div
+				class="card text-center bg-transparent"
+				style="min-height: 0; border: none"
+			>
+				<div class="mb-3 p-3">
 					<h5 class="card-title">Social Media</h5>
 					<!-- Github -->
 					<a

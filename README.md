@@ -23,7 +23,7 @@
 
 ## About this project
 
-This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap. This bootstrap techniques includes layout grid, utilities, card, flexbox, button and some other small parts of components. This website will be fully responsive using bootstrap for mobile, tablet and desktop.
+This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap. This bootstrap techniques includes layout grid, utilities, card, flexbox, button and some other small parts of components. This website will be fully responsive using bootstrap for mobile/tablet and desktop.
 
 ### Built With
 
@@ -38,9 +38,9 @@ This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specif
   - [x] Include links that are applicable to your portfolio
   - [x] Links should navigate to the appropriate sections
 - [x] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
-- [] Follow a work section that has to include the followings
+- [x] Follow a work section that has to include the followings
   - [x] A section displaying your work in grid.
-  - [] If you need to use placeholder image use placehold.coLinks to an external site.
+  - [N/A] If you need to use placeholder image use placehold.coLinks to an external site.
   - [x] Use Bootstrap cards for each project.
   - [x] The description should give a brief overview of the work.
   - [x] Each project will eventually link to your class project work!
@@ -49,34 +49,30 @@ This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specif
 - [x] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.
 - [x] Use the media queries for your bootstrap solution
 - [] Check the class names and comments that have clear and understandable.
-- [] deploy your new Bootstrap-powered portfolio to GitHub Pages.
+- [x] deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Important note
 
-This is the Takuya's Bootstrap-powered portfolio mock-up for the bootcamp project. The design is provided. The structure of Bootstrap is guided by the assignments. Some of pictures are taken from copy-right free websites or AI-generated.
+This is the Takuya's Bootstrap-powered portfolio mock-up for the bootcamp project. The base design is provided. The structure of Bootstrap is guided by the assignments. Some of pictures are taken from copy-right free websites or AI-generated.
 
 ### Website Preview
 
-For mobile with max-width of 420 px
+For mobile/tablet with max-width of 768 px
 
 <p float="left">
-  <img src="#" alt="Portfolio for smartphone" width="200"/>
+  <img align="top" src="./images/ref/sp1.png" alt="Portfolio for smartphone" width="200"/>
+  <img align="top" src="./images/ref/sp2.png" alt="Portfolio for Tablet" width="200"/>
+  <img align="top" src="./images/ref/sp3.png" alt="Portfolio for desktop" width="200"/>
 </p>
 
-For tablet with max-width of 820 px
+For desktop
 
 <p float="left">
-  <img src="#" alt="Portfolio for Tablet" width="200"/>
-</p>
-
-For desktop with max-width of 1280 px
-
-<p float="left">
-  <img src="#" alt="Portfolio for desktop" width="200"/>
+  <img src="./images/ref/pc.png" alt="Portfolio for desktop" width="200"/>
 </p>
 
 You can find the github preview page below
-[github preview page](https://sebecjeanluc.github.io/bootstrap_portfolio)
+[github preview page](https://sebecjeanluc.github.io/Bootstrap-Portfolio/)
 
 ### Credits
 

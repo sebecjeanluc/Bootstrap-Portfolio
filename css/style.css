@@ -5,14 +5,14 @@
 	--bgColor: #e6e2dd;
 }
 
-.body {
+body {
 	background-color: var(--bgColor);
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
 }
 
-/* custom-typography */
+/* Custom typography */
 h1,
 h2,
 h3,
@@ -29,7 +29,7 @@ h2 {
 h5 {
 	font-size: 24px;
 }
-/* custom BG color */
+/* custom Background color */
 .bg-themed-color {
 	background-color: var(--bgColor);
 }
@@ -53,7 +53,7 @@ h5 {
 	padding: 10px 20px;
 }
 
-/* applied when it's in collapse */
+/* Applied when it's in collapse */
 #navbarNav {
 	text-align: right;
 }
@@ -113,6 +113,7 @@ header.hero-wrapper .device-container .screen img {
 	overflow: hidden;
 }
 
+/* custom for Bootstrap card */
 .card {
 	border: 1px solid var(--textBlack);
 	min-height: 450px;
