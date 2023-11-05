@@ -23,32 +23,32 @@
 
 ## About this project
 
-This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap.
-
-This portfolio includes various CSS techniques such as media queries, flex-box, grid, and variable. The criteria is listed below in the roadmap. This website will be responsive for mobile, tablet and desktop.
+This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specific instruction of directory structure in this project. Recreating my portfolio is the goal with mutiple conditions following in the roadmap. This bootstrap techniques includes layout grid, utilities, card, flexbox, button and some other small parts of components. This website will be fully responsive using bootstrap for mobile, tablet and desktop.
 
 ### Built With
 
 - ![HTML]
 - ![CSS]
+- ![BOOTSTRAP]
 
 ## Roadmap
 
-- [] Have a navigation bar
-- [] Have navigation menu at the top and use the Bootstrap's documentation. Or create your own navbar by applying the correct Bootstrap classes to your HTML.
-  - [] Include links that are applicable to your portfolio
-  - [] Links should navigate to the appropriate sections
-- [] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
+- [x] Have a navigation bar
+- [x] Have navigation menu at the top and use the Bootstrap's documentation. Or create your own navbar by applying the correct Bootstrap classes to your HTML.
+  - [x] Include links that are applicable to your portfolio
+  - [x] Links should navigate to the appropriate sections
+- [x] Create a hero section with a jumbotron featuring your picture, your name, and any other information you'd like to include.
 - [] Follow a work section that has to include the followings
-  - [] A section displaying your work in grid.
+  - [x] A section displaying your work in grid.
   - [] If you need to use placeholder image use placehold.coLinks to an external site.
-  - [] Use Bootstrap cards for each project.
-  - [] The description should give a brief overview of the work.
-  - [] Each project will eventually link to your class project work!
-- [] Create a skills section that list out the skills you expect to learn from the bootcamp
-- [] Get an about/contact section that has An ABout Me section in the same row.
-- [] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.
-- [] Use the media queries for your bootstrap solution
+  - [x] Use Bootstrap cards for each project.
+  - [x] The description should give a brief overview of the work.
+  - [x] Each project will eventually link to your class project work!
+- [x] Create a skills section that list out the skills you expect to learn from the bootcamp
+- [x] Get an about/contact section that has An About Me section in the same row.
+- [x] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.
+- [x] Use the media queries for your bootstrap solution
+- [] Check the class names and comments that have clear and understandable.
 - [] deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Important note
@@ -99,3 +99,4 @@ Tak Kawamura - [@\_takuyakawamura](https://twitter.com/_takuyakawamura) - tkawam
 
 [HTML]: https://img.shields.io/badge/HTML-orange
 [CSS]: https://img.shields.io/badge/CSS-blue
+[BOOTSTRAP]: https://img.shields.io/badge/Bootstrap-purple
