@@ -48,7 +48,7 @@ This is UX and Advanced CSS: Bootstrap Portfolio for bootcamp. There is a specif
 - [x] Get an about/contact section that has An About Me section in the same row.
 - [x] Include a footer section has all hyperlinks should have a hover effect and all buttons should display a box shadow upon hover.
 - [x] Use the media queries for your bootstrap solution
-- [] Check the class names and comments that have clear and understandable.
+- [x] Check the class names and comments that have clear and understandable.
 - [x] deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Important note
